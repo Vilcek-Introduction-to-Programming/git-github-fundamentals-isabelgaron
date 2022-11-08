@@ -1,0 +1,26 @@
+---
+title: "ComputationalRepro21_VilcekHW"
+author: "Fred LaPolla"
+date: "11/3/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Homework
+
+1) Please explain 1 of Wilson et. al's suggestions for good practices in computational reproducibility:
+
+Wilson et. al offered a number of suggestions regarding code documentation for ease of readability and reusability.  Some of the suggestions I personally aim to reproduce in my own code are explanations of functions and input variables at the beginning, clear variable names, and a readme file highlighting dependancies that could complicate reuse.  This potentially helps others understand your thinking, but also makes it much easier when you come back to a project after several months of working on something else.
+
+
+2) Please find the square root of 4 to the 13th power, writing your code in the gray box below so that it executes and provides the answer. Hit the play button to make sure it works:
+
+```{r}
+sqrt(4^13)
+
+```
+
+3) Save your file and add it to your GitHub repository at: https://classroom.github.com/a/WO52_vGE
